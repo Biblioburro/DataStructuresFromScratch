@@ -1,5 +1,9 @@
 package linkedLists;
 
-public class linkedList {
+public class linkedList <T> {
+
+	
+listNode<T> head;
+listNode<T> tail;
 
 }
