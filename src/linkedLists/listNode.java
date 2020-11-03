@@ -3,13 +3,15 @@ package linkedLists;
 public class listNode<T> {
 	//constructors
 	public listNode() {
-		
+		data = null;
 	}
+	//parameterized constructor for initializing a node with no link and provided data
 	public listNode(T dat) {
 		data = dat;
 		link  = null;
 	}
-	public listNode(T dat,listNode lnk) {
+	//parameterized constructor for 
+	public listNode(T dat,listNode<T> lnk) {
 		data = dat;
 	 link = lnk;
 		
@@ -28,7 +30,7 @@ public class listNode<T> {
 	public listNode<T> getLink(){
 		return link;
 	}
-	//function to Return if the node is linked
+	//function to return if the node has a link
 	public boolean hasLink() {
 		if(link != null) {
 			return true;
