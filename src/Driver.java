@@ -26,7 +26,7 @@ public class Driver {
 	System.out.println("Program exited successfully");
 	scan.close();
 	}
-	//method to prin the menu options
+	//method to print the menu options
 	public static void printMenu() {
 		System.out.println("Enter the corresponding number\nfor the option you would like\n(enter a negative value to exit)");
 		System.out.println("1: linked list test");
